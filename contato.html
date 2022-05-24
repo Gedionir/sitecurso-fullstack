@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Programação</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<head>
+    
+</head>
+           
+<body bgcolor= "#B0C4DE">
+    
+    <header style="border: 4px solid rgb(22, 3, 58);">
+    </header>
+    <br>
+
+    <nav id="menu-h">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/front-end.html">Front-End</a></li>
+            <li><a href="back-end.html">Back-End</a></li>
+            <li><a href="/sobre.html">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="/login.html">Entrar</a></li>
+        </ul> 
+     </nav>
+     <br>
+     <br>
+     <table width="1368px" border="5">
+        <tr><td>
+       <h1 style="text-align: center;"> CONTATO</h1>
+        </td></tr>
+      </table>
+     <br>
+     
+     <form method='post' action=''>
+        <p>
+            <label for='email'>E-mail:</label>
+            <input type='email' id='email' name='email' autofocus>
+            <span class='hint'>por exemplo, seunome@dominio.com.</span>
+            <span class='error'>Preencha o seu e-mail corretamente.</span>
+        </p>
+        <p>
+            <label for='celular'>Telefone para Contato:</label>
+            <input type='tel' id='fone' name='fone' placeholder="12-12345-6789" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+            <span class='hint'>por exemplo, (12)91234-5678.</span>
+            <span class='error'>Preencha o número do seu celular com o DDD corretamente.</span>
+        </p>
+        <p>
+            <label for='subject'>Assunto:</label>
+            <input type='text' id='subject'>
+            <span class='hint'>Nos diga qual é o seu problema ou ideia.</span>
+        </p>
+        <p>
+            <label for='content'>Mensagem:</label>
+            <textarea id='content'></textarea>
+            <span class='hint'>Escreva a sua mensagem, em até 500 caracteres.</span>
+        </p>
+        <button>Enviar mensagem</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <header style="border: 4px solid rgb(22, 3, 58);">
+    </header>
+
+</article>
+
+
+<div id="div-fixa" class="flutuar" data-shrink="yes">
+<a href="https://api.whatsapp.com/send?phone=5532991291671" target="_blank">
+    <div class="flex-itens">
+        <img src="/imagens/whatsapp.png" alt="chamar no whatsapp">
+        <span>Converse conosco!</span>
+     </div>
+</a>
+</div>
+<script src="js/whatsapp-shink.js"></script>
+
+</body>
+</html>
